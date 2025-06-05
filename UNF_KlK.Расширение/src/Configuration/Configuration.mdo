@@ -44,6 +44,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.КИТ_ДОК</subsystems>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
   <catalogs>Catalog.Госты</catalogs>
   <catalogs>Catalog.КИТ_Породы</catalogs>
