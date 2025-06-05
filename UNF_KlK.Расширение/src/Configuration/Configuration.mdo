@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="82f37915-38a7-4452-af22-6a0d4ed23170">
+  <name>КИТ_ДОК</name>
+  <synonym>
+    <key>ru</key>
+    <value>КИТ Деревообрабатывающий завод</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="fc73a268-dfeb-4039-bf23-ec14c49c9ff3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7a65e572-10d5-433b-b6a5-87261e6d313f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f3722ae7-38a1-4345-a472-5a825a646be2"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c7a613a0-f4d0-4d45-97ba-5b25158146cc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1101f082-93ca-4e47-8f27-d70a1dcd8021"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5db703d7-3fe2-4932-a7dc-e9a61f891055"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1a69027f-a7f8-485a-9703-fd3d00032bff"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>КИТ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>ООО &quot;Консалтинговая фирма ИТ-Сервис&quot;</vendor>
+  <version>1.0.40625</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="8c89e717-c8eb-4b3a-a5c1-08676046b1e2">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <catalogs>Catalog.Госты</catalogs>
+  <catalogs>Catalog.КИТ_Породы</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+</mdclass:Configuration>

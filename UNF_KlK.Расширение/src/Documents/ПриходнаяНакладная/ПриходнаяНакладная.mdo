@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a721ea9a-577a-4770-b3ba-5370ac969901" extendedConfigurationObject="bfd8a708-f45e-44e7-bcd0-d6d6b985ef12">
+  <producedTypes>
+    <objectType typeId="e44f2bda-e4ff-4c39-ba67-588d77c47c5c" valueTypeId="62468c93-4b5c-4216-b8d1-43a32fa73293"/>
+    <refType typeId="6f481f43-61e8-4378-995b-590acd84248b" valueTypeId="fed43144-6dcd-4e48-adaa-a4dadb86dd4b"/>
+    <selectionType typeId="dc11300e-0ee9-49dd-a452-dc36bf4651a1" valueTypeId="8a09ec16-8217-4db6-936e-10176b7e7f15"/>
+    <listType typeId="be6547bc-32d1-4835-a905-32cf96b87448" valueTypeId="5917769f-41e4-4f05-8b3d-8dc26c306033"/>
+    <managerType typeId="75a4bb3d-0dd9-46a1-b499-855149020a4d" valueTypeId="73249721-2e1b-46af-9851-b5b94d1d442d"/>
+  </producedTypes>
+  <name>ПриходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Document>
