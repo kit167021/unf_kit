@@ -7,5 +7,12 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Госты</content>
+  <content>Catalog.КИТ_Породы</content>
+  <content>Catalog.КИТ_Справочник</content>
+  <content>Catalog.Длины</content>
+  <content>Catalog.ДиапзоныДлин</content>
+  <content>Catalog.Ширины</content>
+  <content>Catalog.Толщины</content>
   <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
 </mdclass:Subsystem>

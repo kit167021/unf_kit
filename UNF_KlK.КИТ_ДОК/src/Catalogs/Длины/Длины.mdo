@@ -108,7 +108,6 @@
   <choiceMode>QuickChoice</choiceMode>
   <defaultListForm>Catalog.Длины.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Длины.Form.ФормаСписка</defaultChoiceForm>
-  <auxiliaryObjectForm>Catalog.Длины.Form.ФормаЭлементаУправляемая</auxiliaryObjectForm>
   <attributes uuid="81f99bee-c8ab-49eb-9681-b61da5bd8cec">
     <name>Длина</name>
     <synonym>
@@ -180,15 +179,6 @@
       <value>Форма списка</value>
     </synonym>
     <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="b5c32269-4db6-44a1-aef1-796c4031e381">
-    <name>ФормаЭлементаУправляемая</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента управляемая</value>
-    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
