@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04745cab-4183-4186-886b-59ec37cee7ab">
+  <producedTypes>
+    <selectionType typeId="860b2a2b-53a3-4d29-8e52-90c19076f8c5" valueTypeId="fbda46fa-a5f9-4716-b630-35bd2a184173"/>
+    <listType typeId="059f208c-2db9-4078-ae4d-19e8a85d7a5f" valueTypeId="e706db7d-6362-40b7-9d43-c52a6198480c"/>
+    <managerType typeId="5c2e6a84-3de8-4e46-99c7-1fe09f253bdd" valueTypeId="f3bc0000-ab19-4313-afbd-e16fc453bf6b"/>
+    <recordSetType typeId="9d0e8a4d-9d26-4457-9263-5363638d26c5" valueTypeId="69f54567-1ad9-42a6-a8bf-25b7528de822"/>
+    <recordKeyType typeId="d7deeccf-f1f1-4556-9a9a-8a3c02cf4a70" valueTypeId="40a24eed-8bb9-4fa2-a7e4-b84a94fe181e"/>
+    <recordType typeId="d3766db6-33bf-4394-b3df-b26ad96b52e4" valueTypeId="b50d7709-f85a-4f65-aaa5-91350c185eec"/>
+    <recordManagerType typeId="6eee29e3-191c-4289-8612-da84ec6a955d" valueTypeId="82f94535-2fb4-40b6-94cd-b832362ad92b"/>
+  </producedTypes>
+  <name>СоотвествиеСечений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соотвествие сечений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.СоотвествиеСечений.Form.ФормаСписка</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.СоотвествиеСечений.Form.ФормаЗаписиУправляемая</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.СоотвествиеСечений.Form.ФормаСпискаУправляемая</auxiliaryListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4fbe5707-43b6-404b-a82b-6214b4e89806">
+    <name>Сечение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сечение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0d261d2c-23e7-4d02-a815-fc89e837d313">
+    <name>Толщина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толщина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Толщины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9c1cb1d-1459-4197-9f4b-15ac3e2f058a">
+    <name>Ширина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ширины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6657c6f3-c6ac-4911-b370-418017ef07bb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b5303cb-99a7-427e-92a1-5ab28ed99c5b">
+    <name>ФормаСпискаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="feb52095-f6ec-4cf7-b508-71a9ebf157f9">
+    <name>ФормаЗаписиУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

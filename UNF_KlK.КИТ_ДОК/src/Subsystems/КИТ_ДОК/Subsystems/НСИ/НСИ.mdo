@@ -14,5 +14,6 @@
   <content>Catalog.ДиапзоныДлин</content>
   <content>Catalog.Ширины</content>
   <content>Catalog.Толщины</content>
+  <content>InformationRegister.СоотвествиеСечений</content>
   <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
 </mdclass:Subsystem>

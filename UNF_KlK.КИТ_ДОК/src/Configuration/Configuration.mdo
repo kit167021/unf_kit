@@ -57,4 +57,5 @@
   <enums>Enum.ВидыПакетов</enums>
   <enums>Enum.ВидыДвиженияПолуфабрикатов</enums>
   <enums>Enum.ВидыРеквизита</enums>
+  <informationRegisters>InformationRegister.СоотвествиеСечений</informationRegisters>
 </mdclass:Configuration>
