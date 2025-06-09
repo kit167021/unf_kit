@@ -9,13 +9,10 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
-    <commandInterface>Extended</commandInterface>
-    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <compatibilityMode>Checked</compatibilityMode>
     <defaultStyle>Extended</defaultStyle>
-    <defaultRoles>Extended</defaultRoles>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="fc73a268-dfeb-4039-bf23-ec14c49c9ff3"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7a65e572-10d5-433b-b6a5-87261e6d313f"/>
@@ -47,8 +44,8 @@
   <subsystems>Subsystem.КИТ_ДОК</subsystems>
   <commonPictures>CommonPicture.РазделПроизводство</commonPictures>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
-  <catalogs>Catalog.КИТ_Справочник</catalogs>
   <catalogs>Catalog.Госты</catalogs>
   <catalogs>Catalog.КИТ_Породы</catalogs>
+  <catalogs>Catalog.КИТ_Справочник</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
 </mdclass:Configuration>
