@@ -47,5 +47,14 @@
   <catalogs>Catalog.Госты</catalogs>
   <catalogs>Catalog.КИТ_Породы</catalogs>
   <catalogs>Catalog.КИТ_Справочник</catalogs>
+  <catalogs>Catalog.Длины</catalogs>
+  <catalogs>Catalog.ДиапзоныДлин</catalogs>
+  <catalogs>Catalog.Ширины</catalogs>
+  <catalogs>Catalog.Толщины</catalogs>
+  <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.ВидыКоррективкиПродукции</enums>
+  <enums>Enum.ВидыПакетов</enums>
+  <enums>Enum.ВидыДвиженияПолуфабрикатов</enums>
+  <enums>Enum.ВидыРеквизита</enums>
 </mdclass:Configuration>

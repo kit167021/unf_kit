@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0b3aec0-6958-403d-b5a3-f455c754c14a">
+  <producedTypes>
+    <refType typeId="0bf3d665-1fba-46a8-b7f5-b902bc3ec26b" valueTypeId="b93d9934-c14a-40f7-b38f-24a88e4e8a29"/>
+    <listType typeId="f0ddb3fd-e3e4-4dff-ae5c-49cdaea7df5b" valueTypeId="c0d96063-6d5e-4f07-b417-7f7a786432a7"/>
+    <managerType typeId="5a7278b3-d465-4695-93dd-9fe42641035a" valueTypeId="df7b3f40-6d27-42e4-a474-de8c3a9b25aa"/>
+  </producedTypes>
+  <name>ВидыДвиженияПолуфабрикатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды движения полуфабрикатов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dcc142e7-ecb6-438e-b02c-e95c6708abb7">
+    <name>Напилено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напилено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbaa9c92-80c2-4119-a25b-6ce54111102c">
+    <name>УложеноВШтабель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уложено в штабель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59fc8d85-f427-481c-a932-5880c843df0e">
+    <name>ЗакаткаВКамеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закатка в камеры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af490f78-76bf-4a8e-8bdf-923f261d35c6">
+    <name>ВыкаткаИзКамер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выкатка из камер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92e0d61a-0109-43be-939e-9cfa0445e26f">
+    <name>ПоднятоВОбработкуПолуфабрикат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поднято в обработку полуфабрикат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19f9a27d-0171-447b-9bd3-89122e01091c">
+    <name>ПоднятоВОбработкуПиломатериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поднято в обработку пиломатериал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

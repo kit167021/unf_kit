@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87ff2217-523b-46ab-83e3-b740c5bade8c">
+  <producedTypes>
+    <refType typeId="424b5b78-03d9-482e-816d-2ff771ee1fc4" valueTypeId="f93478e6-7aa5-44e8-b86e-80fcc717d034"/>
+    <listType typeId="1243a289-0ebc-4fa2-acee-2edb3a1e6c98" valueTypeId="434d9cd9-21d5-40b5-8437-19b1623e382e"/>
+    <managerType typeId="3e614a8c-94f2-418e-9854-e29a557acc02" valueTypeId="b98121f3-8919-4ec2-993c-6b827d79a45e"/>
+  </producedTypes>
+  <name>ВидыПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды пакетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cb297aa6-4597-4fb2-bcf9-36869cb31123">
+    <name>Вагон</name>
+    <synonym>
+      <key>ru</key>
+      <value>В</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97383eda-4d31-4272-b2a5-a048400579fe">
+    <name>Платформа</name>
+    <synonym>
+      <key>ru</key>
+      <value>П</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b489590-a169-4da1-983e-6e9bf6b1b619">
+    <name>Фура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbf1d271-a686-499b-a880-779b50d5384c">
+    <name>Шапка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ш</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0979e546-6448-47cf-9ba9-7007872eba9e">
+    <name>Контейнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>К</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="657a6f8d-3a05-4b3b-a696-22fb0c19ff88">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Р</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6011be37-296b-437d-bec0-c17e5085dca7">
+    <name>КонтейнерУкороченный</name>
+    <synonym>
+      <key>ru</key>
+      <value>КУ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

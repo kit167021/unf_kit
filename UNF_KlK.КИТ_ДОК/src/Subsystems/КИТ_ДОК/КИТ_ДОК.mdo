@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделПроизводство</picture>
   </picture>
+  <subsystems>НСИ</subsystems>
 </mdclass:Subsystem>

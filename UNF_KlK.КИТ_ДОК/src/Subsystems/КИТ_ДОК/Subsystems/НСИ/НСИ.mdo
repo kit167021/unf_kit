@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e43d6c-3b92-42da-82d7-752996176f94">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
+</mdclass:Subsystem>
