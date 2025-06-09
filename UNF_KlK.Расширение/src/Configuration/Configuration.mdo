@@ -47,8 +47,8 @@
   <subsystems>Subsystem.КИТ_ДОК</subsystems>
   <commonPictures>CommonPicture.РазделПроизводство</commonPictures>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <catalogs>Catalog.КИТ_Справочник</catalogs>
   <catalogs>Catalog.Госты</catalogs>
   <catalogs>Catalog.КИТ_Породы</catalogs>
-  <catalogs>Catalog.КИТ_Справочник</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
 </mdclass:Configuration>
