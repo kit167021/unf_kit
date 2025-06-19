@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8efb7991-e028-4ff9-8633-89425fccf0e5">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dcdd2ea-7fd0-48f0-919c-cc6ad6eda99c">
   <producedTypes>
-    <objectType typeId="10d6b5ee-778a-4fbd-8ba6-bacc154cb0b1" valueTypeId="a31babdc-c487-4f6e-8ad7-4ca1137314a9"/>
-    <refType typeId="80a12ddb-b03c-44b9-a65f-c9e8f1d5211d" valueTypeId="120ba417-1213-42e3-92a3-c0b9fe8e7b01"/>
-    <selectionType typeId="8073c32e-5fbe-4df7-be77-66b0f13df1f7" valueTypeId="579744ec-e1a2-4afb-8bba-4348543b322d"/>
-    <listType typeId="22ca87cf-8984-46b7-ac26-6c09308194a7" valueTypeId="95accd80-e2fd-440b-ada9-f3ffe2579c1e"/>
-    <managerType typeId="dafd986a-4f82-43f8-bcbd-15a1e47c8205" valueTypeId="91261b00-d30c-42e3-8094-005e7952cdb2"/>
+    <objectType typeId="a882ab96-1382-4b13-82bb-a1a3f4911697" valueTypeId="0466459e-dbd3-41f8-8264-310f49be8b38"/>
+    <refType typeId="12f5bcb7-3c51-40a1-976f-3aa0db9e1951" valueTypeId="4604d089-7b07-47fd-8a1e-3ce259c5a2ac"/>
+    <selectionType typeId="26f06019-b3e0-4803-bd70-7df8b79c6a88" valueTypeId="7d80e94d-dc09-4f6d-8388-da690afe0d05"/>
+    <listType typeId="881d0f8e-881c-4e2a-a800-86414505f573" valueTypeId="8c4bdd21-7f86-4abb-b2a6-4ec7a159ce27"/>
+    <managerType typeId="818a0bc0-c66d-4aac-bf01-60ad8f1d0b6e" valueTypeId="175bdf3b-59a9-461b-ada9-439f6fe6bc50"/>
   </producedTypes>
-  <name>Стандарты</name>
+  <name>Порода</name>
   <synonym>
     <key>ru</key>
-    <value>Стандарты</value>
+    <value>Порода</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Стандарты.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Стандарты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Порода.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Порода.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -98,7 +98,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -106,43 +106,11 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <quickChoice>true</quickChoice>
   <choiceMode>QuickChoice</choiceMode>
-  <auxiliaryObjectForm>Catalog.Стандарты.Form.ФормаЭлементаУправляемая</auxiliaryObjectForm>
-  <auxiliaryListForm>Catalog.Стандарты.Form.ФормаСпискаУправляемая</auxiliaryListForm>
-  <attributes uuid="21282644-0fca-47f5-a475-b33884e0bc69">
-    <name>Гост</name>
+  <attributes uuid="7b45a1f4-1836-4eb6-ae9b-5a8a0351cecb">
+    <name>ПородаХарактеристика</name>
     <synonym>
       <key>ru</key>
-      <value>Гост</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Госты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5644fb37-1e03-48d8-8bc4-3998aa4e7c22">
-    <name>Порода</name>
-    <synonym>
-      <key>ru</key>
-      <value>Порода</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Порода</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="be668a61-d44c-49b8-8344-b7377beae116">
-    <name>Сорт</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сорт</value>
+      <value>Порода характеристика</value>
     </synonym>
     <type>
       <types>CatalogRef.ЗначенияСвойствОбъектов</types>
@@ -153,11 +121,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7f9cdbf5-d0cb-4b6c-8aa7-77ad5bea957b">
-    <name>Обозначение</name>
+  <attributes uuid="e3198867-1461-44a1-ac6a-78e28e70c38c">
+    <name>БуквенноеОбозначение</name>
     <synonym>
       <key>ru</key>
-      <value>Обозначение</value>
+      <value>Буквенное обозначение</value>
     </synonym>
     <type>
       <types>String</types>
@@ -173,14 +141,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4ad4e60f-734b-442e-8bb9-f911d7ee5cb8">
-    <name>Номенклатура</name>
+  <attributes uuid="4190a560-498a-4c35-9ddc-d1c1729cfd91">
+    <name>АнглийскоеНаименование</name>
     <synonym>
       <key>ru</key>
-      <value>Номенклатура</value>
+      <value>Английское наименование</value>
     </synonym>
     <type>
-      <types>CatalogRef.Номенклатура</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5aa866f1-b018-492e-8907-a11f44c5e427">
+    <name>КоэффицентМассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффицент массы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -188,22 +181,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="87dc0bf7-acf5-4b55-aaea-b8b424368633">
-    <name>ФормаСпискаУправляемая</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка управляемая</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="a597f195-f2bd-49c5-a1d7-a4edd85f40af">
-    <name>ФормаЭлементаУправляемая</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента управляемая</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:Catalog>

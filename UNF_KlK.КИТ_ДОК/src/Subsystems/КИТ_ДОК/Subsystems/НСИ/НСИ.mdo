@@ -9,7 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Госты</content>
   <content>Catalog.КИТ_Породы</content>
-  <content>Catalog.КИТ_Справочник</content>
   <content>Catalog.Длины</content>
   <content>Catalog.ДиапзоныДлин</content>
   <content>Catalog.Ширины</content>

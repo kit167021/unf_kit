@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>Группа2</name>
     <id>27</id>
@@ -98,7 +98,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Code</segments>
+        <segments>Список.Код</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -639,31 +639,185 @@
 		КОГДА ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) = 0
 			ТОГДА &quot;Не оприходован&quot;
 		ИНАЧЕ ВЫБОР
-				КОГДА ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) = 1
-					ТОГДА &quot;Оприходован&quot;
+			КОГДА ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) = 1
+				ТОГДА &quot;Оприходован&quot;
+			ИНАЧЕ ВЫБОР
+				КОГДА ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) = 2
+					ТОГДА &quot;Отгружен&quot;
 				ИНАЧЕ ВЫБОР
-						КОГДА ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) = 2
-							ТОГДА &quot;Отгружен&quot;
-						ИНАЧЕ ВЫБОР
-								КОГДА ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) = 3
-									ТОГДА &quot;В пути&quot;
-								ИНАЧЕ &quot;Рассформирован&quot;
-							КОНЕЦ
-					КОНЕЦ
+					КОГДА ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) = 3
+						ТОГДА &quot;В пути&quot;
+					ИНАЧЕ &quot;Рассформирован&quot;
+				КОНЕЦ
 			КОНЕЦ
+		КОНЕЦ
 	КОНЕЦ КАК СостояниеПакета,
 	ЕСТЬNULL(СостояниеПакетаСрезПоследних.Состояние, 0) КАК СостояниеПакетаЧисло
 ИЗ
 	Справочник.Пакеты КАК СправочникПакеты
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостояниеПакета.СрезПоследних(&amp;Дата, ) КАК СостояниеПакетаСрезПоследних
-		ПО (СостояниеПакетаСрезПоследних.Пакет = СправочникПакеты.Ссылка)
-</queryText>
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостояниеПакета.СрезПоследних(&amp;Дата,) КАК СостояниеПакетаСрезПоследних
+		ПО СостояниеПакетаСрезПоследних.Пакет = СправочникПакеты.Ссылка</queryText>
       <mainTable>Catalog.Пакеты</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Код</dataPath>
+        <field>Код</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВерсияДанных</dataPath>
+        <field>ВерсияДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаПакета</dataPath>
+        <field>ДатаПакета</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Подразделение</dataPath>
+        <field>Подразделение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Смена</dataPath>
+        <field>Смена</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Стандарт</dataPath>
+        <field>Стандарт</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Толщина</dataPath>
+        <field>Толщина</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ширина</dataPath>
+        <field>Ширина</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Длина</dataPath>
+        <field>Длина</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Влажность</dataPath>
+        <field>Влажность</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КоличествоДосок</dataPath>
+        <field>КоличествоДосок</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Объем</dataPath>
+        <field>Объем</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номенклатура</dataPath>
+        <field>Номенклатура</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ХарактеристикаНоменклатуры</dataPath>
+        <field>ХарактеристикаНоменклатуры</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СерияНоменклатуры</dataPath>
+        <field>СерияНоменклатуры</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Учетчик</dataPath>
+        <field>Учетчик</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СостояниеПакета</dataPath>
+        <field>СостояниеПакета</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Состояние пакета</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СостояниеПакетаЧисло</dataPath>
+        <field>СостояниеПакетаЧисло</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Состояние пакета число</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Пакет</dataPath>
+        <field>Пакет</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВидПакета</dataPath>
+        <field>ВидПакета</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Вес</dataPath>
+        <field>Вес</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Несертифицированный</dataPath>
+        <field>Несертифицированный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <parameters>
+        <name>Период</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Период</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Date</types>
+          <dateQualifiers/>
+        </valueType>
+      </parameters>
+      <parameters>
+        <name>Дата</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Дата</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Date</types>
+          <dateQualifiers/>
+        </valueType>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <parameters>

@@ -511,12 +511,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ПВХВлажность</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1087,23 +1081,6 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПВХВлажность</name>
-    <title>
-      <key>ru</key>
-      <value>ПВХВлажность</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
     </valueType>
     <view>
       <common>true</common>

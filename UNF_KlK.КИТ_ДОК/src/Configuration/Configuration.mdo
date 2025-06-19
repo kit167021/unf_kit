@@ -46,7 +46,6 @@
   <roles>Role.Расш1_ОсновнаяРоль</roles>
   <catalogs>Catalog.Госты</catalogs>
   <catalogs>Catalog.КИТ_Породы</catalogs>
-  <catalogs>Catalog.КИТ_Справочник</catalogs>
   <catalogs>Catalog.Длины</catalogs>
   <catalogs>Catalog.ДиапзоныДлин</catalogs>
   <catalogs>Catalog.Ширины</catalogs>
@@ -59,10 +58,16 @@
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <catalogs>Catalog.Стандарты</catalogs>
   <catalogs>Catalog.Пакеты</catalogs>
+  <catalogs>Catalog.Порода</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидыКоррективкиПродукции</enums>
   <enums>Enum.ВидыПакетов</enums>
   <enums>Enum.ВидыДвиженияПолуфабрикатов</enums>
   <enums>Enum.ВидыРеквизита</enums>
   <informationRegisters>InformationRegister.СоотвествиеСечений</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеПакета</informationRegisters>
 </mdclass:Configuration>

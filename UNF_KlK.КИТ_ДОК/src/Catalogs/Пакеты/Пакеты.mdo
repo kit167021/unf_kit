@@ -103,9 +103,9 @@
   <checkUnique>true</checkUnique>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Пакеты.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Пакеты.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Пакеты.Form.ФормаСписка</defaultChoiceForm>
+  <defaultObjectForm>Catalog.Пакеты.Form.ФормаЭлементаУправляемая</defaultObjectForm>
+  <defaultListForm>Catalog.Пакеты.Form.ФормаСпискаУправляемая</defaultListForm>
+  <defaultChoiceForm>Catalog.Пакеты.Form.ФормаВыбораУправляемая</defaultChoiceForm>
   <auxiliaryObjectForm>Catalog.Пакеты.Form.ФормаЭлементаУправляемая</auxiliaryObjectForm>
   <auxiliaryListForm>Catalog.Пакеты.Form.ФормаСпискаУправляемая</auxiliaryListForm>
   <auxiliaryChoiceForm>Catalog.Пакеты.Form.ФормаВыбораУправляемая</auxiliaryChoiceForm>
@@ -136,7 +136,7 @@
       <value>Подразделение</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПодразделенияСнабжения</types>
+      <types>CatalogRef.ПодразделенияПроизводства</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -394,26 +394,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="6ce31bcb-b16a-4946-84e3-e72382e5552d">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="d2910ca5-753f-42a9-8a07-b58bd47a7077">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="af58e9f8-7ab8-4beb-8808-99fc964034ed">
     <name>ФормаЭлементаУправляемая</name>
     <synonym>
@@ -437,15 +417,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма выбора управляемая</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="b4fadbbf-c1b4-4f18-84f8-57dec5068a7c">
-    <name>ФормаВыбораСОстаткамиУправляемая</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора с остатками управляемая</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
