@@ -52,6 +52,13 @@
   <catalogs>Catalog.Ширины</catalogs>
   <catalogs>Catalog.Толщины</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
+  <catalogs>Catalog.ПодразделенияПроизводства</catalogs>
+  <catalogs>Catalog.СменыПроизводства</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ПодразделенияОрганизаций</catalogs>
+  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
+  <catalogs>Catalog.Стандарты</catalogs>
+  <catalogs>Catalog.Пакеты</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидыКоррективкиПродукции</enums>
   <enums>Enum.ВидыПакетов</enums>
