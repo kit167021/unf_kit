@@ -537,7 +537,7 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Объект.ПункПогрузки</segments>
+                <segments>Объект.ПунктПогрузки</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ПункПогрузкиРасширеннаяПодсказка</name>

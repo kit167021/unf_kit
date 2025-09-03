@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66503683-96b5-4580-b7d1-861b12eb744d">
+  <producedTypes>
+    <objectType typeId="fdb7861a-686f-4ace-9157-de7232cda668" valueTypeId="bb102218-03b8-48f1-ac31-c4013d5c419a"/>
+    <refType typeId="894be090-20bf-427b-af04-31a441cfc7d8" valueTypeId="2a70d94d-66ea-4c25-993e-95aac4d681a2"/>
+    <selectionType typeId="f96154e4-2d22-4ebb-80b4-366bbf8340d0" valueTypeId="df2464ae-80a5-4b0d-b94a-09bf7460e89d"/>
+    <listType typeId="81fe7f00-7730-42ee-bfa6-efd6b184cc89" valueTypeId="08266ea5-810f-41f4-b396-49e32203b5ef"/>
+    <managerType typeId="ad51ffcb-408c-4b0b-9db2-8b33cf3de34f" valueTypeId="2e4582ef-9796-453f-bb60-6447718cc993"/>
+  </producedTypes>
+  <name>ТС_Перевозчики_KIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТС перевозчики</value>
+  </synonym>
+  <comment>Введен для учета штабелей</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТС_Перевозчики_KIT.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТС_Перевозчики_KIT.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТС_Перевозчики_KIT.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТС_Перевозчики_KIT.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТС_Перевозчики_KIT.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="18f2df88-2313-432f-a3b3-eef528936f85">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93dbbdc2-fd07-4bca-978c-396c2767489f">
+    <name>Собственник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="720ed19e-9bab-4b70-bfd4-a1343d1c33fa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8e914511-9bab-49ea-a12c-41475a6e2532">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="88ba617a-2c7d-4459-a152-3e70020981b5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

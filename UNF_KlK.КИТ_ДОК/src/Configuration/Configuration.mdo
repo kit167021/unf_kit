@@ -64,6 +64,11 @@
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ШтабелиKIT</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ТС_Перевозчики_KIT</catalogs>
+  <catalogs>Catalog.ПунктыПогрузки</catalogs>
+  <catalogs>Catalog.УчасткиПоставщиков</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ПриходныйОрдерНаКруглыйЛесоматериал</documents>
   <enums>Enum.ВидыКоррективкиПродукции</enums>

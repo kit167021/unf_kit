@@ -19,5 +19,6 @@
   <content>Catalog.Стандарты</content>
   <content>Catalog.Пакеты</content>
   <content>Catalog.Порода</content>
+  <content>Catalog.ШтабелиKIT</content>
   <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
 </mdclass:Subsystem>

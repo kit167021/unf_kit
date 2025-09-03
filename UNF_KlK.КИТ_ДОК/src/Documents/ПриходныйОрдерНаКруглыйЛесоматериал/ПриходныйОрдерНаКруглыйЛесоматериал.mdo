@@ -58,6 +58,7 @@
   <auxiliaryObjectForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаДокументаУправляемаяKIT</auxiliaryObjectForm>
   <auxiliaryListForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаСпискаУправляемая</auxiliaryListForm>
   <auxiliaryChoiceForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаВыбораУправляемая</auxiliaryChoiceForm>
+  <posting>Deny</posting>
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
   <sequenceFilling>AutoFillOff</sequenceFilling>
@@ -93,13 +94,16 @@
       <value>Вид операции</value>
     </synonym>
     <type>
-      <types>EnumRef.ВидыОперацийПриходныйОрдер</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -128,15 +132,13 @@
       <value>Склад</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Склады.EmptyRef</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -152,9 +154,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Контрагенты.EmptyRef</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -181,7 +181,7 @@
       <value>Подразделение</value>
     </synonym>
     <type>
-      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -234,50 +234,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="49638fa8-47a9-4fa2-82d3-1cc5d83aa594">
-    <name>ДокументПеремещения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ перемещения</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ПеремещениеТоваров</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Document.ПеремещениеТоваров.EmptyRef</value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="cd9ee954-e7d7-4c8f-95d3-3d9efbe61d04">
-    <name>ЗаказПоставщику</name>
-    <synonym>
-      <key>ru</key>
-      <value>Заказ поставщику</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ЗаказПоставщику</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Контрагент</name>
-      <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Attribute.Контрагент</field>
-    </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Attribute.Организация</field>
-    </choiceParameterLinks>
-    <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Document.ЗаказПоставщику.EmptyRef</value>
-    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -352,9 +308,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -379,13 +333,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="923a7731-9629-435b-a066-a1fe3526496c">
-    <name>ПункПогрузки</name>
+    <name>ПунктПогрузки</name>
     <synonym>
       <key>ru</key>
-      <value>Пунк погрузки</value>
+      <value>Пункт погрузки</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПункыПогрузки</types>
+      <types>CatalogRef.ПунктыПогрузки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

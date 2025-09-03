@@ -1511,9 +1511,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЗаказПоставщику</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ЗаказПоставщикуРасширеннаяПодсказка</name>
             <id>159</id>
@@ -1529,20 +1526,10 @@
             <id>99</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <openButton>false</openButton>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>Ответственный</name>
@@ -1958,12 +1945,6 @@
     </notDefaultUseAlwaysAttributes>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ВидОперации</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.ДокументПеремещения</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.ЗаказПоставщику</segments>
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.Комментарий</segments>
