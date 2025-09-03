@@ -15,10 +15,6 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПриходныйОрдерНаКруглыйЛесоматериал.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <basedOn>Document.ЗаказПоставщику</basedOn>
-  <basedOn>Document.СчетНаОплатуПоставщика</basedOn>
-  <basedOn>Document.РеализацияТоваровУслуг</basedOn>
-  <basedOn>Document.ПеремещениеТоваров</basedOn>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -52,13 +48,10 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаДокументаУправляемаяKIT</defaultObjectForm>
   <defaultListForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаСпискаУправляемая</defaultListForm>
   <defaultChoiceForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаВыбораУправляемая</defaultChoiceForm>
-  <auxiliaryObjectForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаДокументаУправляемаяKIT</auxiliaryObjectForm>
   <auxiliaryListForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаСпискаУправляемая</auxiliaryListForm>
   <auxiliaryChoiceForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаВыбораУправляемая</auxiliaryChoiceForm>
-  <posting>Deny</posting>
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
   <sequenceFilling>AutoFillOff</sequenceFilling>
@@ -320,10 +313,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Attribute.Погрузка</field>
-    </choiceParameterLinks>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -755,15 +744,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="aeddd90f-af83-4b65-a81e-189bdc41d87f">
-    <name>ФормаДокументаУправляемаяKIT</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа управляемая KIT</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <tabularSections uuid="a515979d-c865-43c6-97b0-d0082cf28006">
     <producedTypes>
       <objectType typeId="8013fd04-58d0-429e-87e4-2ca18f2f61ca" valueTypeId="880b5aae-709b-4b00-ab67-063d3d213350"/>
@@ -786,14 +766,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
-      <choiceParameters>
-        <name>Отбор.Набор</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
-      <choiceParameters>
-        <name>Отбор.Услуга</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -826,10 +798,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.TabularSection.Товары.Attribute.Номенклатура</field>
-      </choiceParameterLinks>
       <createOnInput>DontUse</createOnInput>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -884,10 +852,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.TabularSection.Товары.Attribute.Номенклатура</field>
-      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -902,10 +866,6 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.TabularSection.Товары.Attribute.Номенклатура</field>
-      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -921,10 +881,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.TabularSection.Товары.Attribute.Номенклатура</field>
-      </choiceParameterLinks>
       <createOnInput>DontUse</createOnInput>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -960,14 +916,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
-      <choiceParameters>
-        <name>Отбор.Набор</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
-      <choiceParameters>
-        <name>Отбор.Услуга</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -1415,14 +1363,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
-      <choiceParameters>
-        <name>Отбор.Набор</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
-      <choiceParameters>
-        <name>Отбор.Услуга</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -1646,30 +1586,4 @@
       <value>Накладная</value>
     </synonym>
   </templates>
-  <commands uuid="eb8c65db-b2e0-4ab1-9709-1d83334e2f95">
-    <name>ПечатьПриходныйОрдерНаТовары</name>
-    <synonym>
-      <key>ru</key>
-      <value>Приходный ордер на товары</value>
-    </synonym>
-    <group>CommandGroup.Печать</group>
-    <commandParameterType>
-      <types>DocumentRef.ПриходныйОрдерНаКруглыйЛесоматериал</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-  </commands>
-  <commands uuid="5136b585-d401-446b-bd6b-06a8f4693fa2">
-    <name>ПечатьТОРГ4</name>
-    <synonym>
-      <key>ru</key>
-      <value>ТОРГ-4 (Акт о приемке товара без счета поставщика)</value>
-    </synonym>
-    <group>CommandGroup.Печать</group>
-    <commandParameterType>
-      <types>DocumentRef.ПриходныйОрдерНаКруглыйЛесоматериал</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Document>
