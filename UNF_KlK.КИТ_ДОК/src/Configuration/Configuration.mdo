@@ -69,6 +69,7 @@
   <catalogs>Catalog.ТС_Перевозчики_KIT</catalogs>
   <catalogs>Catalog.ПунктыПогрузки</catalogs>
   <catalogs>Catalog.УчасткиПоставщиков</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ПриходныйОрдерНаКруглыйЛесоматериал</documents>
   <enums>Enum.ВидыКоррективкиПродукции</enums>

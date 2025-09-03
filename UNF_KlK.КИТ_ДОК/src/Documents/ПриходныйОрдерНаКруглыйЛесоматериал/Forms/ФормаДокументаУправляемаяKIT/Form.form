@@ -92,7 +92,6 @@
         <items xsi:type="form:FormField">
           <name>ВидОперации</name>
           <id>73</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -976,7 +975,6 @@
               <items xsi:type="form:FormField">
                 <name>ОтгрузкаНЗП</name>
                 <id>362</id>
-                <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
@@ -1083,9 +1081,6 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.ДокументОснование</segments>
-                </dataPath>
                 <extendedTooltip>
                   <name>ДокументОснованиеРасширеннаяПодсказка</name>
                   <id>367</id>
@@ -1101,19 +1096,10 @@
                   <id>366</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <wrap>true</wrap>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                </extInfo>
               </items>
               <items xsi:type="form:Button">
                 <name>ЗаполнитьДокументОснование</name>
@@ -1122,7 +1108,6 @@
                   <key>ru</key>
                   <value>Заполнить</value>
                 </title>
-                <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
@@ -1925,12 +1910,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ПВХСорт</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -2767,12 +2746,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ПВХПорода</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -2813,12 +2786,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ПВХДиаметр</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -3662,12 +3629,6 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Отбор.Владелец</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>ПВХПорода</segments>
-                  </datapath>
-                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -3720,12 +3681,6 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Отбор.Владелец</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>ПВХДиаметр</segments>
-                  </datapath>
-                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -4233,12 +4188,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ПВХПорода</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -4518,12 +4467,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.Владелец</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>ПВХПорода</segments>
-                </datapath>
-              </choiceParameterLinks>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -4777,12 +4720,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ПВХДиаметр</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -5278,57 +5215,6 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>ПВХСорт</name>
-    <title>
-      <key>ru</key>
-      <value>ПВХСорт</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПВХПорода</name>
-    <title>
-      <key>ru</key>
-      <value>ПВХПорода</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПВХДиаметр</name>
-    <title>
-      <key>ru</key>
-      <value>ПВХДиаметр</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>ДеревоЗамеров</name>

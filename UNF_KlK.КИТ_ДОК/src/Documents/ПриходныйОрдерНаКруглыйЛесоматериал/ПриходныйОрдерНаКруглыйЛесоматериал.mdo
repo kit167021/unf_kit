@@ -52,9 +52,9 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаДокументаKIT</defaultObjectForm>
-  <defaultListForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultObjectForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаДокументаУправляемаяKIT</defaultObjectForm>
+  <defaultListForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаСпискаУправляемая</defaultListForm>
+  <defaultChoiceForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаВыбораУправляемая</defaultChoiceForm>
   <auxiliaryObjectForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаДокументаУправляемаяKIT</auxiliaryObjectForm>
   <auxiliaryListForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаСпискаУправляемая</auxiliaryListForm>
   <auxiliaryChoiceForm>Document.ПриходныйОрдерНаКруглыйЛесоматериал.Form.ФормаВыбораУправляемая</auxiliaryChoiceForm>
@@ -62,29 +62,6 @@
   <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
   <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
   <sequenceFilling>AutoFillOff</sequenceFilling>
-  <registerRecords>AccumulationRegister.НДСПредъявленный</registerRecords>
-  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладахБухгалтерскийУчет</registerRecords>
-  <registerRecords>AccumulationRegister.УчетЗатрат</registerRecords>
-  <registerRecords>AccumulationRegister.ОстаткиШтабелейKIT</registerRecords>
-  <registerRecords>AccumulationRegister.ТоварыВРознице</registerRecords>
-  <registerRecords>AccumulationRegister.НДСПартииТоваров</registerRecords>
-  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>
-  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
-  <registerRecords>AccumulationRegister.ОборотШтабелейKIT</registerRecords>
-  <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
-  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладахНалоговыйУчет</registerRecords>
-  <registerRecords>AccumulationRegister.ПиломатериалыОбъектовУчетаЛФ</registerRecords>
-  <registerRecords>AccumulationRegister.НДСВключенныйВСтоимость</registerRecords>
-  <registerRecords>InformationRegister.СписанныеТовары</registerRecords>
-  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
-  <registerRecords>AccumulationRegister.НДСпоОСиНМА</registerRecords>
-  <registerRecords>AccumulationRegister.ТоварыКПолучениюНаСклады</registerRecords>
-  <registerRecords>AccumulationRegister.ЗатратыНалоговыйУчет</registerRecords>
-  <registerRecords>AccountingRegister.Налоговый</registerRecords>
-  <registerRecords>AccumulationRegister.ТоварыОрганизаций</registerRecords>
-  <registerRecords>AccumulationRegister.ПиломатериалыОбъектовУчетаЛФПриёмка</registerRecords>
-  <registerRecords>AccumulationRegister.ЗатратыБухгалтерскийУчет</registerRecords>
-  <registerRecords>AccumulationRegister.ТоварыВРезервеНаСкладах</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1dbc7547-d06f-4c34-bf62-6f059bed6d0a">
@@ -552,7 +529,10 @@
       <value>Объект учета лесного фонда</value>
     </synonym>
     <type>
-      <types>CatalogRef.ОбъектыУчетаЛесногоФондаЛесозавод</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -583,7 +563,10 @@
       <value>Склад поставщика</value>
     </synonym>
     <type>
-      <types>CatalogRef.СкладыКонтрагентов</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -617,21 +600,6 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="3e06f9ae-ed03-4a62-b81b-d7db74974bd7">
-    <name>ДокументОснование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Документ основание</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.РасходныйОрдерНаТовары</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -769,45 +737,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="8b77a022-06f1-441c-b7aa-4cd43c9c78d8">
-    <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Основная форма документа</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="88bba143-e7d7-400d-bb2b-80c53d5e6d21">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="d5f963be-0493-41d1-928c-b3ff1865cffb">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
-    </synonym>
-    <formType>Ordinary</formType>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="fdfd8c29-58f0-4bc7-b8d6-d7afefa29dd7">
-    <name>ФормаДокументаУправляемая</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа управляемая</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="de6c0246-924b-4c99-a383-9c201f2d1e36">
     <name>ФормаСпискаУправляемая</name>
     <synonym>
@@ -832,16 +761,6 @@
       <key>ru</key>
       <value>Форма документа управляемая KIT</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="97572f91-a6c0-453e-8c47-2df03f02a40b">
-    <name>ФормаДокументаKIT</name>
-    <synonym>
-      <key>ru</key>
-      <value>Основная форма документа</value>
-    </synonym>
-    <formType>Ordinary</formType>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -903,7 +822,7 @@
         <value>Единица измерения мест</value>
       </synonym>
       <type>
-        <types>CatalogRef.ЕдиницыИзмерения</types>
+        <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -911,7 +830,6 @@
         <name>Отбор.Владелец</name>
         <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.TabularSection.Товары.Attribute.Номенклатура</field>
       </choiceParameterLinks>
-      <quickChoice>Use</quickChoice>
       <createOnInput>DontUse</createOnInput>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
@@ -998,7 +916,7 @@
         <value>Единица измерения</value>
       </synonym>
       <type>
-        <types>CatalogRef.ЕдиницыИзмерения</types>
+        <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1007,113 +925,7 @@
         <name>Отбор.Владелец</name>
         <field>Document.ПриходныйОрдерНаКруглыйЛесоматериал.TabularSection.Товары.Attribute.Номенклатура</field>
       </choiceParameterLinks>
-      <quickChoice>Use</quickChoice>
       <createOnInput>DontUse</createOnInput>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="505998c9-f8f7-45a3-a7ca-75a4f6ed44c8">
-      <name>ДокументРезерва</name>
-      <synonym>
-        <key>ru</key>
-        <value>Документ резерва</value>
-      </synonym>
-      <type>
-        <types>DocumentRef.ЗаказНаПроизводство</types>
-        <types>DocumentRef.ПриходныйОрдерНаКруглыйЛесоматериал</types>
-        <types>DocumentRef.ЗаказПокупателя</types>
-        <types>DocumentRef.ВнутреннийЗаказ</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="6f33075b-c0fc-4417-9649-fbc0e101924c">
-      <name>Качество</name>
-      <synonym>
-        <key>ru</key>
-        <value>Качество</value>
-      </synonym>
-      <comment>(Общ)</comment>
-      <type>
-        <types>CatalogRef.Качество</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <quickChoice>Use</quickChoice>
-      <createOnInput>DontUse</createOnInput>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="58809294-aa8d-4ebd-8f7d-c9d3d9d634ff">
-    <producedTypes>
-      <objectType typeId="d039c12c-7153-4982-8d19-e6b44cdf4399" valueTypeId="8bf70afc-7c36-4d1e-a881-914f78ed54f2"/>
-      <rowType typeId="a5a23e11-993c-40f1-bf58-e611c53f0684" valueTypeId="db89644a-5a66-411a-99fd-73439b96275c"/>
-    </producedTypes>
-    <name>ВозвратнаяТара</name>
-    <synonym>
-      <key>ru</key>
-      <value>Возвратная тара</value>
-    </synonym>
-    <attributes uuid="605f5734-ea35-4e8c-81d9-dc42bbb00a8d">
-      <name>Номенклатура</name>
-      <synonym>
-        <key>ru</key>
-        <value>Номенклатура</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Номенклатура</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <choiceParameters>
-        <name>Отбор.Набор</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
-      <choiceParameters>
-        <name>Отбор.Услуга</name>
-        <value xsi:type="core:BooleanValue"/>
-      </choiceParameters>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="05044b4f-aa70-4ebb-979e-6a6a9db24cf6">
-      <name>Количество</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>3</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="5afcc4bf-737d-4b34-9076-b64201993061">
-      <name>ДокументРезерва</name>
-      <synonym>
-        <key>ru</key>
-        <value>Документ резерва</value>
-      </synonym>
-      <type>
-        <types>DocumentRef.ПриходныйОрдерНаКруглыйЛесоматериал</types>
-        <types>DocumentRef.ЗаказПокупателя</types>
-        <types>DocumentRef.ВнутреннийЗаказ</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -1858,16 +1670,6 @@
       <types>DocumentRef.ПриходныйОрдерНаКруглыйЛесоматериал</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-  </commands>
-  <commands uuid="258f6137-7e4d-49e1-a2f4-f2d2d026b334">
-    <name>СоздатьПоНастройке</name>
-    <synonym>
-      <key>ru</key>
-      <value>Приходный ордер на товары (по настройке)</value>
-    </synonym>
-    <group>ActionsPanelCreate</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:Document>

@@ -175,12 +175,6 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <datapath xsi:type="form:DataPath">
-          <segments>ПВХДиаметр</segments>
-        </datapath>
-      </choiceParameterLinks>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -301,23 +295,6 @@
     </edit>
     <main>true</main>
     <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>ПВХДиаметр</name>
-    <title>
-      <key>ru</key>
-      <value>ПВХДиаметр</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
