@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a06079e-8ea5-4cb1-9b3d-a471e29f6126">
+  <producedTypes>
+    <objectType typeId="e6ba25ba-d906-4933-9800-25eceb1c16b8" valueTypeId="cf27e1fb-568f-4ac9-a654-d18b0937a975"/>
+    <refType typeId="70aa682e-ba75-4f53-9a31-ad0563c121ec" valueTypeId="f1430492-781f-473a-957c-a77c1555728b"/>
+    <selectionType typeId="3c711914-a512-4f63-b849-64a986306b3c" valueTypeId="5361731c-7d35-4573-ae8a-18f9f88c6636"/>
+    <listType typeId="22792f9b-2109-4840-a847-23837dbeb4bd" valueTypeId="76ce4a4d-c441-4595-a8b9-463ddacf6309"/>
+    <managerType typeId="c3b9607a-478d-435a-9ed9-c2c3b8c7a76b" valueTypeId="78e13d26-d1f7-43d8-84b6-823296d5fc66"/>
+  </producedTypes>
+  <name>ШтабелиKIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штабели</value>
+  </synonym>
+  <comment>Введен для учета штабелей</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШтабелиKIT.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШтабелиKIT.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ШтабелиKIT.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ШтабелиKIT.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ШтабелиKIT.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e9314e56-c004-40e2-9a04-e1069b06fe70">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aea0bc76-d849-4012-843f-6f9784cf2581">
+    <name>НомерШтабеля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер штабеля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7856d1aa-c7d8-418e-9192-1ed8262e0e34">
+    <name>Порода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Порода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c47ebcee-bbe9-4325-b129-b0a01e659b1b">
+    <name>Диаметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаметр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="021c021e-e7bb-4d03-aa16-9ef12468b057">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cdc901db-75ab-42da-9f93-7f9515162dbd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e2319a4-f923-42bc-b63e-39043663364c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

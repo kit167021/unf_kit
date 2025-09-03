@@ -14,5 +14,10 @@
   <content>Catalog.Ширины</content>
   <content>Catalog.Толщины</content>
   <content>InformationRegister.СоотвествиеСечений</content>
+  <content>Catalog.ПодразделенияПроизводства</content>
+  <content>Catalog.СменыПроизводства</content>
+  <content>Catalog.Стандарты</content>
+  <content>Catalog.Пакеты</content>
+  <content>Catalog.Порода</content>
   <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
 </mdclass:Subsystem>

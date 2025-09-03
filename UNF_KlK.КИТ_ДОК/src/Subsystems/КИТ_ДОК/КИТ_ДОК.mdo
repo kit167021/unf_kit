@@ -11,4 +11,5 @@
     <picture>CommonPicture.РазделПроизводство</picture>
   </picture>
   <subsystems>НСИ</subsystems>
+  <subsystems>Документы</subsystems>
 </mdclass:Subsystem>

@@ -63,7 +63,9 @@
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ШтабелиKIT</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ПриходныйОрдерНаКруглыйЛесоматериал</documents>
   <enums>Enum.ВидыКоррективкиПродукции</enums>
   <enums>Enum.ВидыПакетов</enums>
   <enums>Enum.ВидыДвиженияПолуфабрикатов</enums>
