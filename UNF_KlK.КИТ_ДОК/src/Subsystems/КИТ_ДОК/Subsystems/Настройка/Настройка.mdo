@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f277f010-66c7-4178-8628-6fc3bb193726">
+  <name>Настройка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.СвойствоДляДиаметра</content>
+  <content>Constant.СвойствоДляПород</content>
+  <content>Constant.СвойствоДляСортов</content>
+  <content>Constant.СвойствоДляДлин</content>
+  <content>Constant.СвойствоДляСечений</content>
+  <content>Constant.СвойствоДляВлажности</content>
+  <content>Constant.СвойствоДляПородПЛ</content>
+  <content>Constant.ЗначениеБезУказанияВлажности</content>
+  <content>Constant.ЗначениеБезУказанияСорта</content>
+  <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
+</mdclass:Subsystem>

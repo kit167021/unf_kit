@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3747e69a-1212-4dac-b944-f9407f02a9e8">
+  <producedTypes>
+    <refType typeId="b777115e-df9a-47f3-a19a-ad50e864e816" valueTypeId="e954f127-3641-4e94-9a89-57fe48391e06"/>
+    <listType typeId="0382cbe1-e1aa-4ba7-8660-96891b72e182" valueTypeId="71716e4f-be26-4ccc-afe3-2f7dbd94ce46"/>
+    <managerType typeId="728a7ff8-78df-42c4-935e-8360d859cf9e" valueTypeId="cede8f64-cb6d-4de0-967c-c8d951e41287"/>
+  </producedTypes>
+  <name>ВидыРаскатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды раскатки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2267bf39-2645-4301-a31b-f75c6d96c0ad">
+    <name>Ручная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28c356c5-fc5d-4989-838c-63a2bee14c53">
+    <name>ЛинияСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия сортировки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

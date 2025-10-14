@@ -10,7 +10,7 @@
   <name>ПодразделенияПроизводства</name>
   <synonym>
     <key>ru</key>
-    <value>Подразделения производства</value>
+    <value>Подразделения производства (ГП)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПодразделенияПроизводства.StandardAttribute.Description</inputByString>
@@ -103,50 +103,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="9d48bb28-93a9-4001-9083-60e4103ac6b5">
-      <name>БелаяГорка</name>
-      <description>Белая горка (Б)</description>
-      <code xsi:type="core:StringValue">
-        <value>000000005</value>
-      </code>
-    </items>
-    <items id="0738cba5-7cf3-41d4-bb62-d7294089da35">
-      <name>Емва</name>
-      <description>Емва (Е)</description>
-      <code xsi:type="core:StringValue">
-        <value>000000004</value>
-      </code>
-    </items>
-    <items id="03bc29dc-8fbc-4d50-be75-14d3bbbcad07">
-      <name>Лесозавод</name>
-      <description>Лесозавод</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
-    <items id="1617e20e-86a6-4676-b381-be13388a9d9f">
-      <name>ЧернаяРечка</name>
-      <description>Черная речка (Ч)</description>
-      <code xsi:type="core:StringValue">
-        <value>000000006</value>
-      </code>
-    </items>
-    <items id="e380b4ae-b9d8-437d-a359-5f10ca762a15">
-      <name>Човью</name>
-      <description>Човью</description>
-      <code xsi:type="core:StringValue">
-        <value>000000002</value>
-      </code>
-    </items>
-    <items id="57bbf7ee-9fbb-4fff-80e9-83e426be300e">
-      <name>Ярославль</name>
-      <description>Ярославль (Я)</description>
-      <code xsi:type="core:StringValue">
-        <value>000000003</value>
-      </code>
-    </items>
-  </predefined>
+  <predefined/>
   <quickChoice>true</quickChoice>
   <choiceMode>QuickChoice</choiceMode>
   <auxiliaryObjectForm>Catalog.ПодразделенияПроизводства.Form.ФормаЭлементаУправляемая</auxiliaryObjectForm>

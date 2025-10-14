@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21da0eae-0699-4f38-aafb-76940c295c7e">
+  <producedTypes>
+    <refType typeId="20d7f2cf-7d46-41e7-91a2-740e4166a2d3" valueTypeId="856ae7db-e8ee-4630-9940-15002a64ff6a"/>
+    <listType typeId="aaa4e1b1-f465-42e4-9855-6537643f147b" valueTypeId="e47e8516-7575-4ffa-942f-09ffe5df17f5"/>
+    <managerType typeId="3fd9658e-b0fa-46be-ace2-2c213fa7a5da" valueTypeId="dc12095a-ecfc-4753-b232-534348ef37c0"/>
+  </producedTypes>
+  <name>СостоянияПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния пакетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a4f9b0a5-8454-47a1-9034-d408aa2abdd8">
+    <name>НеОприходован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оприходован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="814f20a6-0436-4ac6-ad2f-763d81dfc787">
+    <name>Оприходован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1d8b02b-fad8-4bb1-8cc6-ed42e36df07e">
+    <name>Отгружен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be196d82-31ac-49d9-8936-6b2af2c0044d">
+    <name>Расформирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расформирован</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

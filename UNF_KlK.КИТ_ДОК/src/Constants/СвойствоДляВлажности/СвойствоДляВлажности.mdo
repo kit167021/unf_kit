@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c11b9a8c-3295-4d54-aa99-26c7afe5f07c">
+  <producedTypes>
+    <managerType typeId="abc63b11-22e6-496c-8cfb-ec21dd9c1e0c" valueTypeId="9554242b-ce7a-4b5e-8882-c72ed7dda818"/>
+    <valueManagerType typeId="8e859321-ddb8-419c-bf5f-ed1535f054ce" valueTypeId="ceaba9c8-bd0c-4835-b0fd-d494e5416a32"/>
+    <valueKeyType typeId="76953d43-122d-4271-9c34-2fdf4a296848" valueTypeId="7368b3f9-2485-4e7d-8b61-508fbadb917b"/>
+  </producedTypes>
+  <name>СвойствоДляВлажности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойство для влажности</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

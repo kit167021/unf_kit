@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e27f2c6-76ec-4c77-aba2-9cdb5c2b2874">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e27f2c6-76ec-4c77-aba2-9cdb5c2b2874">
   <name>Документы</name>
   <synonym>
     <key>ru</key>
     <value>Документы</value>
   </synonym>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ПриходныйОрдерНаКруглыйЛесоматериал</content>
+  <content>Document.ОтчетПроизводстваЗаСменуОкорка</content>
+  <content>Document.ОтчетПроизводстваЗаСменуЛесоцех</content>
+  <content>Document.ЗагрузкаВСушильнуюКамеру</content>
+  <content>Document.ВыгрузкаИзСушильнойКамеры</content>
+  <content>Document.ОтчетПроизводстваЗаСменуЛСП</content>
+  <content>Document.УкладкаВШтабель</content>
   <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
 </mdclass:Subsystem>

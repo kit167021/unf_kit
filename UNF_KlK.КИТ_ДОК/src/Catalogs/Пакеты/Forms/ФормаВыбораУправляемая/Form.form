@@ -801,6 +801,7 @@
           <types>Date</types>
           <dateQualifiers/>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
       </parameters>
       <parameters>
         <name>Дата</name>
@@ -816,6 +817,7 @@
           <types>Date</types>
           <dateQualifiers/>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adb4bd9f-d855-4597-9f82-2c49ea95fc02">
+  <name>ЛокализацияДанныхПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локализация данных производство</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

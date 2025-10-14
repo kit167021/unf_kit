@@ -29,17 +29,17 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="dcc142e7-ecb6-438e-b02c-e95c6708abb7">
-    <name>Напилено</name>
+    <name>Лесоцех</name>
     <synonym>
       <key>ru</key>
-      <value>Напилено</value>
+      <value>Лесоцех</value>
     </synonym>
   </enumValues>
   <enumValues uuid="fbaa9c92-80c2-4119-a25b-6ce54111102c">
     <name>УложеноВШтабель</name>
     <synonym>
       <key>ru</key>
-      <value>Уложено в штабель</value>
+      <value>Уложено в штабель для сушки</value>
     </synonym>
   </enumValues>
   <enumValues uuid="59fc8d85-f427-481c-a932-5880c843df0e">
@@ -68,6 +68,27 @@
     <synonym>
       <key>ru</key>
       <value>Поднято в обработку пиломатериал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09e4e471-9ce8-44c5-b629-2f291651716f">
+    <name>Окорка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окорка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e2676a7-bdd0-4ffe-b8d3-9e46d4b51916">
+    <name>Приемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98f3bda4-03a3-4851-beb9-918c29067439">
+    <name>СкладГотовойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад готовой продукции</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

@@ -76,7 +76,7 @@
       <value>Порода</value>
     </synonym>
     <type>
-      <types>CatalogRef.Порода</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -10,6 +10,8 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделПроизводство</picture>
   </picture>
+  <content>Report.СводкаПроизводства</content>
   <subsystems>НСИ</subsystems>
   <subsystems>Документы</subsystems>
+  <subsystems>Настройка</subsystems>
 </mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1387ff10-6228-40d9-a1a7-4d8fb8e5597a">
+  <producedTypes>
+    <managerType typeId="4141ee43-3b02-4e86-8eef-ec4403fdf27c" valueTypeId="f0705170-fc7d-4985-9c5f-da010b910051"/>
+    <valueManagerType typeId="2886bdf6-1d5a-4736-889e-e2702064a5a9" valueTypeId="a8813426-19c8-4a61-891b-a12d42e30f88"/>
+    <valueKeyType typeId="56e0d082-8f83-42f7-831d-f7a4091277b6" valueTypeId="945d1845-a191-4763-816f-f8544dd7f0f0"/>
+  </producedTypes>
+  <name>СвойствоДляДлин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойство для длин</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

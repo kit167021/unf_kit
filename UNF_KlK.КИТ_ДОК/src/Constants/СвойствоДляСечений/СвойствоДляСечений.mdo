@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7948eab-0c17-4a1e-83c9-a441ace2788b">
+  <producedTypes>
+    <managerType typeId="c6d22be3-9f7e-4315-b60a-090a8c64e8ac" valueTypeId="ae69a73b-09e5-411f-83d1-326855a5d505"/>
+    <valueManagerType typeId="56f7ea5a-e75b-435c-9576-8358f2e6bfb4" valueTypeId="27ce50be-f1e3-4af8-8f9c-b7a124aadce7"/>
+    <valueKeyType typeId="ca846c49-d702-4719-9413-0031a36806f1" valueTypeId="a40e87f2-ff1b-4bed-826b-6e98b583c023"/>
+  </producedTypes>
+  <name>СвойствоДляСечений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойство для сечений</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

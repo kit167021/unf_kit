@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6336cc0b-f611-4411-8bf3-4627db0e4ee5">
+  <producedTypes>
+    <managerType typeId="66a52534-c680-4662-85dc-5a006cd7d338" valueTypeId="ebf28501-6d0b-4908-b6d3-6ea5d57f6115"/>
+    <valueManagerType typeId="406a9b6f-d81c-4978-b330-f3a5a47895ec" valueTypeId="404118b9-dcb6-454f-927e-98cd4db7ba01"/>
+    <valueKeyType typeId="e79b55d8-60de-4224-9d21-be4be0099179" valueTypeId="5e7370c8-b61a-40c0-a7ae-99440338c746"/>
+  </producedTypes>
+  <name>СвойствоДляПород</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойство для пород (КЛ)</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

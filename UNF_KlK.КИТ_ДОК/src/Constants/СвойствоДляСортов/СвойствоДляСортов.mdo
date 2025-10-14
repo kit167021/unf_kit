@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b72f9dbe-2d77-425e-92d9-793707582170">
+  <producedTypes>
+    <managerType typeId="8c05a6f5-2794-4367-a07e-45c33bc494da" valueTypeId="b0c9a103-cc68-4756-a9e0-35dc76753d53"/>
+    <valueManagerType typeId="f0c31d10-bfcd-4024-a3ff-c0554506ca42" valueTypeId="f0b4ff14-e320-4b28-b6c8-880eecaa49ba"/>
+    <valueKeyType typeId="88f9f782-b7d9-4a00-b1fb-8a645b94cb61" valueTypeId="117e09dc-4170-441c-8936-0ab9ebe2babe"/>
+  </producedTypes>
+  <name>СвойствоДляСортов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойство для сортов</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

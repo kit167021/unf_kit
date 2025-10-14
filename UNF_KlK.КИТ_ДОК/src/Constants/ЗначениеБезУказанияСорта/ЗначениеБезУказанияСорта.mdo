@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="385d4a6c-fe99-40b7-8764-4c06d4d0133d">
+  <producedTypes>
+    <managerType typeId="8ed6ae3f-62ad-4b37-9ecc-e86b09f42259" valueTypeId="df23de7e-75bd-47c5-832f-b2bdd73d3125"/>
+    <valueManagerType typeId="f6f5c32e-5764-450f-b436-527491fd28ef" valueTypeId="b6993022-c601-4ccf-95f5-adf0fa3c2541"/>
+    <valueKeyType typeId="63f87deb-fac7-4c8e-9546-742f02a42648" valueTypeId="a159b5a7-1300-4f70-847f-3591c0d1752c"/>
+  </producedTypes>
+  <name>ЗначениеБезУказанияСорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение без указания сорта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -78,7 +78,6 @@
     <dataHistory>Use</dataHistory>
     <name>Description</name>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -94,6 +93,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>10</codeLength>
@@ -101,6 +101,7 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Пакеты.Form.ФормаЭлементаУправляемая</defaultObjectForm>
@@ -421,4 +422,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="4ac05675-8916-4fd7-b68a-91fc867fbd59">
+    <name>Этикетка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>

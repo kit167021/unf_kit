@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi"/>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Catalog.Пакеты.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Госты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Порода.StandardCommand.OpenList</commands>
+      <commands>Catalog.Диаметр.StandardCommand.OpenList</commands>
+      <commands>Catalog.Длины.StandardCommand.OpenList</commands>
+      <commands>Catalog.КИТ_Породы.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПодразделенияПроизводства.StandardCommand.OpenList</commands>
+      <commands>Catalog.СменыПроизводства.StandardCommand.OpenList</commands>
+      <commands>Catalog.Стандарты.StandardCommand.OpenList</commands>
+      <commands>Catalog.СушильныеКамеры.StandardCommand.OpenList</commands>
+      <commands>Catalog.Толщины.StandardCommand.OpenList</commands>
+      <commands>Catalog.Ширины.StandardCommand.OpenList</commands>
+      <commands>Catalog.ШтабелиKIT.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.СоотвествиеСечений.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Catalog.Пакеты.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

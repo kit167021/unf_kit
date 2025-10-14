@@ -16,49 +16,35 @@
     <name>Вагон</name>
     <synonym>
       <key>ru</key>
-      <value>В</value>
+      <value>Вагон</value>
     </synonym>
   </enumValues>
   <enumValues uuid="97383eda-4d31-4272-b2a5-a048400579fe">
     <name>Платформа</name>
     <synonym>
       <key>ru</key>
-      <value>П</value>
+      <value>Платформа</value>
     </synonym>
   </enumValues>
   <enumValues uuid="3b489590-a169-4da1-983e-6e9bf6b1b619">
     <name>Фура</name>
     <synonym>
       <key>ru</key>
-      <value>Ф</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="fbf1d271-a686-499b-a880-779b50d5384c">
-    <name>Шапка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ш</value>
+      <value>Фура</value>
     </synonym>
   </enumValues>
   <enumValues uuid="0979e546-6448-47cf-9ba9-7007872eba9e">
     <name>Контейнер</name>
     <synonym>
       <key>ru</key>
-      <value>К</value>
+      <value>Контейнер</value>
     </synonym>
   </enumValues>
   <enumValues uuid="657a6f8d-3a05-4b3b-a696-22fb0c19ff88">
     <name>Реквизит</name>
     <synonym>
       <key>ru</key>
-      <value>Р</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="6011be37-296b-437d-bec0-c17e5085dca7">
-    <name>КонтейнерУкороченный</name>
-    <synonym>
-      <key>ru</key>
-      <value>КУ</value>
+      <value>Реквизит</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

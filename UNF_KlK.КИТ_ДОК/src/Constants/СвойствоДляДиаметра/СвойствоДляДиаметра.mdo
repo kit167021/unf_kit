@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51bc6878-98a0-4d43-818c-f258bf2446fa">
+  <producedTypes>
+    <managerType typeId="6a8828b4-9cf2-4810-835f-ac6e98aca61b" valueTypeId="ed629676-e3b1-477a-b1de-597c8e953791"/>
+    <valueManagerType typeId="0bba5896-eefe-4583-975f-43e532c0a139" valueTypeId="fefb706e-2ea4-47a0-b098-cab67be74faf"/>
+    <valueKeyType typeId="72e708aa-3ca6-4a2a-bbe4-b052e3a0ec4a" valueTypeId="9cd966f6-7957-4309-83f9-73b1b3313724"/>
+  </producedTypes>
+  <name>СвойствоДляДиаметра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойство для диаметра (КЛ)</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

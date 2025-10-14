@@ -158,6 +158,12 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <datapath xsi:type="form:DataPath">
+          <segments>ПВХ_Порода</segments>
+        </datapath>
+      </choiceParameterLinks>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -290,6 +296,10 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -315,6 +325,40 @@
     </edit>
     <main>true</main>
     <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ПВХ_Порода</name>
+    <title>
+      <key>ru</key>
+      <value>ПВХ порода</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПВХ_Сорт</name>
+    <title>
+      <key>ru</key>
+      <value>ПВХ сорт</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>

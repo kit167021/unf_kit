@@ -43,7 +43,21 @@
   </languages>
   <subsystems>Subsystem.КИТ_ДОК</subsystems>
   <commonPictures>CommonPicture.РазделПроизводство</commonPictures>
-  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <roles>Role.КИТ_ПолныеПрава</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
+  <commonModules>CommonModule.КИТ_РаботаСДаннымиСервер</commonModules>
+  <commonModules>CommonModule.КИТ_РаботаСДаннымиКлиент</commonModules>
+  <commonModules>CommonModule.ЛокализацияДанныхПроизводство</commonModules>
+  <constants>Constant.СвойствоДляДиаметра</constants>
+  <constants>Constant.СвойствоДляПород</constants>
+  <constants>Constant.СвойствоДляДлин</constants>
+  <constants>Constant.СвойствоДляСортов</constants>
+  <constants>Constant.СвойствоДляСечений</constants>
+  <constants>Constant.СвойствоДляВлажности</constants>
+  <constants>Constant.СвойствоДляПородПЛ</constants>
+  <constants>Constant.ЗначениеБезУказанияВлажности</constants>
+  <constants>Constant.ЗначениеБезУказанияСорта</constants>
   <catalogs>Catalog.Госты</catalogs>
   <catalogs>Catalog.КИТ_Породы</catalogs>
   <catalogs>Catalog.Длины</catalogs>
@@ -70,12 +84,26 @@
   <catalogs>Catalog.ПунктыПогрузки</catalogs>
   <catalogs>Catalog.УчасткиПоставщиков</catalogs>
   <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.Диаметр</catalogs>
+  <catalogs>Catalog.СушильныеКамеры</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ПриходныйОрдерНаКруглыйЛесоматериал</documents>
+  <documents>Document.ПриходныйОрдер</documents>
+  <documents>Document.ОтчетПроизводстваЗаСменуОкорка</documents>
+  <documents>Document.ОтчетПроизводстваЗаСменуЛесоцех</documents>
+  <documents>Document.УкладкаВШтабель</documents>
+  <documents>Document.ЗагрузкаВСушильнуюКамеру</documents>
+  <documents>Document.ВыгрузкаИзСушильнойКамеры</documents>
+  <documents>Document.ОтчетПроизводстваЗаСменуЛСП</documents>
   <enums>Enum.ВидыКоррективкиПродукции</enums>
   <enums>Enum.ВидыПакетов</enums>
   <enums>Enum.ВидыДвиженияПолуфабрикатов</enums>
   <enums>Enum.ВидыРеквизита</enums>
+  <enums>Enum.ВидыРаскатки</enums>
+  <enums>Enum.СостоянияПакетов</enums>
+  <reports>Report.СводкаПроизводства</reports>
   <informationRegisters>InformationRegister.СоотвествиеСечений</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеПакета</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвижениеПоПроизводству</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

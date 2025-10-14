@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Состояние пакета</value>
   </synonym>
+  <dataHistory>Use</dataHistory>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <standardAttributes>
@@ -50,6 +51,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="7012f653-0440-456e-b4f6-617fa13ae9e8">
     <name>Состояние</name>
@@ -58,11 +60,7 @@
       <value>Состояние</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>EnumRef.СостоянияПакетов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

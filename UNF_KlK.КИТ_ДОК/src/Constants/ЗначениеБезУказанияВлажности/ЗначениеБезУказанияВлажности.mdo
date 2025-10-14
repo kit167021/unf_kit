@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de732775-f718-41a8-ad97-1eef6a463dc1">
+  <producedTypes>
+    <managerType typeId="e969e1ce-7a5d-48e1-ae81-0d356c5f560c" valueTypeId="37d12f53-0a57-488a-bad0-72edc2c05b0d"/>
+    <valueManagerType typeId="1f6f4935-e0fc-477b-9441-e26a5cfd0a35" valueTypeId="1af1ce05-70c9-4c53-95bd-40883dd628b2"/>
+    <valueKeyType typeId="0525450a-0b46-4f07-b78a-06a7d89de4a2" valueTypeId="13d0dc09-1d96-4ffe-b203-6324f14acc89"/>
+  </producedTypes>
+  <name>ЗначениеБезУказанияВлажности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение без указания влажности</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

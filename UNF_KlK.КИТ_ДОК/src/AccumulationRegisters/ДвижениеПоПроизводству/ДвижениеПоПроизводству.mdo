@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51044a25-1004-4c30-bd44-0abd74d8f630">
+  <producedTypes>
+    <selectionType typeId="69f4bae0-703f-4ec3-9404-188346d8eccc" valueTypeId="b236eaca-9f64-4c0b-9281-461a9e6135e5"/>
+    <listType typeId="6d551f26-ceab-48c2-bdae-83da8ac358db" valueTypeId="cb6dd3ad-0bc0-4a3a-9443-111888c52aaa"/>
+    <managerType typeId="e54d36b4-8eee-4205-80e3-011539cf0575" valueTypeId="3d53ba1b-b228-4a2a-9a0f-7eecf1555f38"/>
+    <recordSetType typeId="4076c887-92c7-491b-802c-4ad3079035c0" valueTypeId="a19fbc88-df2b-42a7-a15c-ddf1dc7fc18c"/>
+    <recordKeyType typeId="4136d437-7368-4cab-8cf7-41cb89426ba3" valueTypeId="bc6d6a54-12b1-47bc-988d-0e80813c2165"/>
+    <recordType typeId="6f0a1f0a-396a-4646-ac33-1362dfc6059c" valueTypeId="a4749454-7b3c-4564-be12-b03584073437"/>
+  </producedTypes>
+  <name>ДвижениеПоПроизводству</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение по производству</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e7c9d85b-4903-41fd-b183-d7d7f58bed6a">
+    <name>КоличествоШт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол. шт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="cdb4cfee-cd4c-4823-95af-5663adb782de">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество номенклатурной позиции, подлежащей реализации (отгрузке).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="de84ec2c-8309-474f-b97a-4252d05056b4">
+    <name>ВидДвиженияПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид движения производство</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДвиженияПолуфабрикатов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="aeca4310-35fd-4da8-8fd5-9ca789d5c6a6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="e52049cb-8d30-44ec-9af9-3a1abe758494">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При необходимости в данном поле указывается характеристика номенклатуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="96dbf583-473f-4c37-9021-ab53a9009f0f">
+    <name>Пакет_Штабель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штабель/Пакет/Суш. камера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СушильныеКамеры</types>
+      <types>CatalogRef.ШтабелиKIT</types>
+      <types>CatalogRef.Пакеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

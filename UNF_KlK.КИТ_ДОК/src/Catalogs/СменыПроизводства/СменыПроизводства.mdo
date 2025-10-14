@@ -135,10 +135,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="edae7ec0-087d-40b8-9ae6-be022feee95c">
-    <name>ПодразделениеТоваровед</name>
+    <name>ПодразделениеПроизводства</name>
     <synonym>
       <key>ru</key>
-      <value>Подразделение товаровед</value>
+      <value>Подразделение производства</value>
     </synonym>
     <type>
       <types>CatalogRef.ПодразделенияПроизводства</types>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e43d6c-3b92-42da-82d7-752996176f94">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="33e43d6c-3b92-42da-82d7-752996176f94">
   <name>НСИ</name>
   <synonym>
     <key>ru</key>
     <value>НСИ</value>
   </synonym>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Госты</content>
@@ -18,7 +21,8 @@
   <content>Catalog.СменыПроизводства</content>
   <content>Catalog.Стандарты</content>
   <content>Catalog.Пакеты</content>
-  <content>Catalog.Порода</content>
   <content>Catalog.ШтабелиKIT</content>
+  <content>Catalog.Диаметр</content>
+  <content>Catalog.СушильныеКамеры</content>
   <parentSubsystem>Subsystem.КИТ_ДОК</parentSubsystem>
 </mdclass:Subsystem>
